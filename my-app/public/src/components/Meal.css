@@ -1,0 +1,44 @@
+
+.card {
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+
+  .card-image {
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 50px 50px 0 rgba(8, 8, 8, 0.01);
+
+  }
+
+  * {
+      box-sizing: border-box;
+  }
+  
+  .btn {
+      border: 2px solid black;
+      background-color: white;
+      color: black;
+      padding: 14px 28px;
+      cursor: pointer;
+  }
+
+  .recipe {
+      border-color: rgb(175, 47, 25);
+      color: rgb(175, 47, 25);
+  }
+
+  .recipe:hover {
+    background: rgb(175, 47, 25);
+    color: white;
+  }
+  

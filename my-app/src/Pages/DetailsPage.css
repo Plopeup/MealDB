@@ -1,0 +1,13 @@
+.center{
+    margin: auto;
+    position: center;
+    text-align: center;
+}
+
+.textover {
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    width: 60em
+}
